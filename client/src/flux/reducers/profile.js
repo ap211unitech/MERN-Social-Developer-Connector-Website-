@@ -28,9 +28,8 @@ export default function Random(state = initialState, action) {
         case PROFILE_ERROR:
             return {
                 ...state,
-                profile: null,
+                loading: false,
                 error: action.payload,
-                loading: false
             }
         case GET_REPOS:
             return {
