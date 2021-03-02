@@ -20,7 +20,7 @@ const Profiles = ({ GetAllProfile, profile: { profiles, loading } }) => {
                         <small style={{ fontSize: '18px' }}>( User must have a profile to show here )</small>
                     </p>
                     <div className="profiles">
-                        {profiles.length > 0 ? profiles.map(prof => <ProfileItem key={prof._id} profile={prof} />) : <h4>No profiles Found....</h4>}
+                        {profiles.length > 0 ? profiles.map(prof => <ProfileItem key={prof._id} profile={prof} />) : <Spinner />}
                     </div>
                 </Fragment>}
         </Fragment>
