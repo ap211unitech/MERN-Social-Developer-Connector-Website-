@@ -34,8 +34,8 @@ npm run dev
 ```
 
 ### See Live
-[https://salty-dawn-13486.herokuapp.com/](https://salty-dawn-13486.herokuapp.com/)
+[https://dev-connector-77bk.onrender.com/](https://dev-connector-77bk.onrender.com/)
 
-### Author
+### Developer
 
 Arjun Porwal
